@@ -1,9 +1,12 @@
-import {ContextMovieCard} from "../components/ContextMovieCard"
+// Importa el componente ContextMovieCard desde el archivo correspondiente en el directorio de componentes
+import { ContextMovieCard } from "../components/ContextMovieCard";
 
-export function LandingPage(){
+// Define el componente funcional LandingPage
+export function LandingPage() {
+    // Renderiza el componente ContextMovieCard
     return (
         <div>
-            <ContextMovieCard/>
+            <ContextMovieCard />
         </div>
-    )    
+    );
 }
